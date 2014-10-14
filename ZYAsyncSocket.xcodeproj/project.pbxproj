@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C04B1FA19E142A10098AE10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04B1F919E142A10098AE10 /* main.m */; };
+		9C04B1FD19E142A10098AE10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04B1FC19E142A10098AE10 /* AppDelegate.m */; };
+		9C04B1FF19E142A10098AE10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C04B1FE19E142A10098AE10 /* Images.xcassets */; };
+		9C04B20219E142A10098AE10 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C04B20019E142A10098AE10 /* MainMenu.xib */; };
+		9C04B20E19E142A10098AE10 /* ZYAsyncSocketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04B20D19E142A10098AE10 /* ZYAsyncSocketTests.m */; };
+		9C04B21919E143120098AE10 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C04B21819E143120098AE10 /* AsyncSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C04B20819E142A10098AE10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C04B1EC19E142A10098AE10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C04B1F319E142A10098AE10;
+			remoteInfo = ZYAsyncSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C04B1F419E142A10098AE10 /* ZYAsyncSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYAsyncSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C04B1F819E142A10098AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C04B1F919E142A10098AE10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C04B1FB19E142A10098AE10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C04B1FC19E142A10098AE10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C04B1FE19E142A10098AE10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C04B20119E142A10098AE10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9C04B20719E142A10098AE10 /* ZYAsyncSocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYAsyncSocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C04B20C19E142A10098AE10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C04B20D19E142A10098AE10 /* ZYAsyncSocketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYAsyncSocketTests.m; sourceTree = "<group>"; };
+		9C04B21719E143120098AE10 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		9C04B21819E143120098AE10 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C04B1F119E142A10098AE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C04B20419E142A10098AE10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C04B1EB19E142A10098AE10 = {
+			isa = PBXGroup;
+			children = (
+				9C04B1F619E142A10098AE10 /* ZYAsyncSocket */,
+				9C04B20A19E142A10098AE10 /* ZYAsyncSocketTests */,
+				9C04B1F519E142A10098AE10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C04B1F519E142A10098AE10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C04B1F419E142A10098AE10 /* ZYAsyncSocket.app */,
+				9C04B20719E142A10098AE10 /* ZYAsyncSocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C04B1F619E142A10098AE10 /* ZYAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				9C04B21719E143120098AE10 /* AsyncSocket.h */,
+				9C04B21819E143120098AE10 /* AsyncSocket.m */,
+				9C04B1FB19E142A10098AE10 /* AppDelegate.h */,
+				9C04B1FC19E142A10098AE10 /* AppDelegate.m */,
+				9C04B1FE19E142A10098AE10 /* Images.xcassets */,
+				9C04B20019E142A10098AE10 /* MainMenu.xib */,
+				9C04B1F719E142A10098AE10 /* Supporting Files */,
+			);
+			path = ZYAsyncSocket;
+			sourceTree = "<group>";
+		};
+		9C04B1F719E142A10098AE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C04B1F819E142A10098AE10 /* Info.plist */,
+				9C04B1F919E142A10098AE10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C04B20A19E142A10098AE10 /* ZYAsyncSocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C04B20D19E142A10098AE10 /* ZYAsyncSocketTests.m */,
+				9C04B20B19E142A10098AE10 /* Supporting Files */,
+			);
+			path = ZYAsyncSocketTests;
+			sourceTree = "<group>";
+		};
+		9C04B20B19E142A10098AE10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C04B20C19E142A10098AE10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C04B1F319E142A10098AE10 /* ZYAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C04B21119E142A10098AE10 /* Build configuration list for PBXNativeTarget "ZYAsyncSocket" */;
+			buildPhases = (
+				9C04B1F019E142A10098AE10 /* Sources */,
+				9C04B1F119E142A10098AE10 /* Frameworks */,
+				9C04B1F219E142A10098AE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYAsyncSocket;
+			productName = ZYAsyncSocket;
+			productReference = 9C04B1F419E142A10098AE10 /* ZYAsyncSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C04B20619E142A10098AE10 /* ZYAsyncSocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C04B21419E142A10098AE10 /* Build configuration list for PBXNativeTarget "ZYAsyncSocketTests" */;
+			buildPhases = (
+				9C04B20319E142A10098AE10 /* Sources */,
+				9C04B20419E142A10098AE10 /* Frameworks */,
+				9C04B20519E142A10098AE10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C04B20919E142A10098AE10 /* PBXTargetDependency */,
+			);
+			name = ZYAsyncSocketTests;
+			productName = ZYAsyncSocketTests;
+			productReference = 9C04B20719E142A10098AE10 /* ZYAsyncSocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C04B1EC19E142A10098AE10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Box;
+				TargetAttributes = {
+					9C04B1F319E142A10098AE10 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					9C04B20619E142A10098AE10 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 9C04B1F319E142A10098AE10;
+					};
+				};
+			};
+			buildConfigurationList = 9C04B1EF19E142A10098AE10 /* Build configuration list for PBXProject "ZYAsyncSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C04B1EB19E142A10098AE10;
+			productRefGroup = 9C04B1F519E142A10098AE10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C04B1F319E142A10098AE10 /* ZYAsyncSocket */,
+				9C04B20619E142A10098AE10 /* ZYAsyncSocketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C04B1F219E142A10098AE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C04B1FF19E142A10098AE10 /* Images.xcassets in Resources */,
+				9C04B20219E142A10098AE10 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C04B20519E142A10098AE10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C04B1F019E142A10098AE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C04B21919E143120098AE10 /* AsyncSocket.m in Sources */,
+				9C04B1FD19E142A10098AE10 /* AppDelegate.m in Sources */,
+				9C04B1FA19E142A10098AE10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C04B20319E142A10098AE10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C04B20E19E142A10098AE10 /* ZYAsyncSocketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C04B20919E142A10098AE10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C04B1F319E142A10098AE10 /* ZYAsyncSocket */;
+			targetProxy = 9C04B20819E142A10098AE10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C04B20019E142A10098AE10 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C04B20119E142A10098AE10 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C04B20F19E142A10098AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C04B21019E142A10098AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C04B21219E142A10098AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZYAsyncSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C04B21319E142A10098AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZYAsyncSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C04B21519E142A10098AE10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYAsyncSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYAsyncSocket.app/Contents/MacOS/ZYAsyncSocket";
+			};
+			name = Debug;
+		};
+		9C04B21619E142A10098AE10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYAsyncSocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYAsyncSocket.app/Contents/MacOS/ZYAsyncSocket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C04B1EF19E142A10098AE10 /* Build configuration list for PBXProject "ZYAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C04B20F19E142A10098AE10 /* Debug */,
+				9C04B21019E142A10098AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C04B21119E142A10098AE10 /* Build configuration list for PBXNativeTarget "ZYAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C04B21219E142A10098AE10 /* Debug */,
+				9C04B21319E142A10098AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C04B21419E142A10098AE10 /* Build configuration list for PBXNativeTarget "ZYAsyncSocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C04B21519E142A10098AE10 /* Debug */,
+				9C04B21619E142A10098AE10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C04B1EC19E142A10098AE10 /* Project object */;
+}
